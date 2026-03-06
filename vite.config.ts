@@ -1,10 +1,13 @@
 import { defineConfig } from 'vite';
+import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react';
 import federation from '@originjs/vite-plugin-federation';
+
 
 export default defineConfig({
   plugins: [
     react(),
+    tailwindcss(),
     federation({
       name: 'mfe_weather',
       filename: 'remoteEntry.js',
@@ -22,7 +25,7 @@ export default defineConfig({
   build: {
     target: 'esnext',
     minify: false,
-    cssCodeSplit: false
+    cssCodeSplit: true
   },
   preview: {
     port: 3001,

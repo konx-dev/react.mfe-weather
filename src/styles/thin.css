@@ -1,5 +1,7 @@
 /* Imports the core engines without Preflight reset or Utilities as Shell provides these */
+/* 10/3 - Providing utilities here due to classes not being available */
 @import "tailwindcss/theme";
+@import "tailwindcss/utilities";
 
 /* Access to Shell's variables */
 @theme {

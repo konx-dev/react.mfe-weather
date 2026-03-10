@@ -15,8 +15,8 @@ const Widget = () => {
 
   return (
     <div className="mfe-weather">
-      <h4 className="text-white bg-primary">☀️ Weather Module</h4>
-      <p>Location: London, UK</p>
+      <h4 className="text-white bg-primary underline">☀️ Weather Module</h4>
+      <p className="text-2xl">Location: London, UK</p>
       <p>Temp: 18°C</p>
     </div>
   );

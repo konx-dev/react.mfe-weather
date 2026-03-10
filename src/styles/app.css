@@ -3,4 +3,4 @@
 
 /* Add Preflight/Resets & Utilities */
 @import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
+/* @import "tailwindcss/utilities"; providing in thin for now */
